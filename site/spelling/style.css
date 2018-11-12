@@ -1,0 +1,25 @@
+#app-spelling > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+#app-spelling img {
+    margin: 0 auto;
+    object-fit: scale-down;
+    flex: 1;
+    max-height: 400px;
+}
+#app-spelling input {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 10em;
+    margin: 0 auto;
+}
+#app-spelling .valid {
+    color: green;
+}
+#app-spelling .invalid {
+    color: red;
+}

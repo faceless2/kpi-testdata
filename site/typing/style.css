@@ -1,0 +1,11 @@
+#app-typing {
+    display: flex;
+    margin: 0;
+}
+#app-typing textarea {
+    font-size: 36pt;
+    font-family: sans-serif;
+    display: block;
+    width: 90%;
+    flex: 1 1 auto;
+}
